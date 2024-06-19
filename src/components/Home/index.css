@@ -11,11 +11,11 @@
   color: #ffffff;
   height: 40px;
   width: 100px;
-  align-self : flex-start;
+  align-self: flex-start;
   margin-top: 30px;
   border-width: 0px;
   border-radius: 3px;
-  margin-left : 30px;
+  margin-left: 30px;
 }
 .heading11 {
   color: #ffffff;
@@ -29,7 +29,7 @@
   color: #ffffff;
   font-size: 30px;
   margin-left: 20px;
-  width : 50%;
+  width: 50%;
   margin-top: 30px;
   font-family: 'Roboto';
   align-self: flex-start;

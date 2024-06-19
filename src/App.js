@@ -9,8 +9,8 @@ import LoginForm from './components/LoginForm'
 
 import './App.css'
 
-const App = () => {
-  ;<Switch>
+const App = () => (
+  <Switch>
     <Route exact path="/login" component={LoginForm} />
     <ProtectedRoute exact path="/" component={Home} />
     <ProtectedRoute exact path="/jobs" component={AllJobs} />
@@ -18,6 +18,6 @@ const App = () => {
     <Route exact path="/not-found" compoent={NotFound} />
     <Redirect to="/not-found" />
   </Switch>
-}
+)
 
 export default App
